@@ -2,7 +2,7 @@ import { useRef, useState } from "react";
 import { createWorker } from "tesseract.js";
 import "./App.css";
 
-const API = "http://10.93.191.209:8000";
+const API = "https://scancraftbackend.onrender.com";
 
 const filters = [
   { name: "Original", value: "original", icon: "◉" },
